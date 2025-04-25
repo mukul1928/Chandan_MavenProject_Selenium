@@ -1,7 +1,7 @@
 package class_51_MavenStarted;
 
 import org.testng.annotations.Test;
-
+//priority can be negative too (priority=-1)
 public class Registration {
 	@Test(priority=2)
 	public void Login() {
