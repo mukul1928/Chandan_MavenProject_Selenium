@@ -1,4 +1,4 @@
-package Chandan_Maven_Project.Selenium_Assignments;
+package Chandan_Maven_ProjectAssignments.Selenium;
 
 import java.time.Duration;
 
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Two_Tests_With_Same_Priority_WhichOneExecuteFirst {
 	
-	@Test
+	@Test(priority=10)
 	public void AmazonLogin() {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -22,7 +22,7 @@ public class Two_Tests_With_Same_Priority_WhichOneExecuteFirst {
 		WebElement sign = driver.findElement(By.xpath("(//span[.='Sign in'])"));
 		sign.click();
 	}
-	@Test 
+	@Test(priority=10) 
 	public void FlipkartLogin() {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

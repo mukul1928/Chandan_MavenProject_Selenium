@@ -1,4 +1,4 @@
-package class_51_MavenStarted;
+package class_51_MavenStarted_Login_Amazon_Flipkart_Facebook;
 
 import org.testng.annotations.Test;
 //priority can be negative too (priority=-1)

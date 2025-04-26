@@ -1,4 +1,4 @@
-package class_51_MavenStarted;
+package class_51_MavenStarted_Login_Amazon_Flipkart_Facebook;
 
 import java.time.Duration;
 
