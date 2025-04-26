@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Performance Suite">
+  <test thread-count="5" name="Performance Test">
+	  <groups>
+		  <run>
+			  <include name="performance"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Grouping_With_15_TestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
