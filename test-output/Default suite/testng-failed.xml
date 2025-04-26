@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_52_Parameters_InTest_DifferentAnnotationsInTestNG.Parameter_timeOut">
+      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers">
         <methods>
-          <include name="testcase1"/>
+          <include name="google_search"/>
         </methods>
-      </class> <!-- class_52_Parameters_InTest_DifferentAnnotationsInTestNG.Parameter_timeOut -->
+      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
