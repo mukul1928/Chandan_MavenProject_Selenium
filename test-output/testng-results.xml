@@ -1,186 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T12:46:23 IST" name="Suite" finished-at="2025-04-27T12:48:30 IST" duration-ms="127200">
+  <suite started-at="2025-04-27T13:38:59 IST" name="Default suite" finished-at="2025-04-27T13:39:04 IST" duration-ms="5619">
     <groups>
     </groups>
-    <test started-at="2025-04-27T12:46:23 IST" name="Testing on Chrome" finished-at="2025-04-27T12:46:49 IST" duration-ms="26063">
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
-        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:23 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:46:29 IST" duration-ms="5770" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-27T13:38:59 IST" name="Default test" finished-at="2025-04-27T13:39:04 IST" duration-ms="5619">
+      <class name="class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink">
+        <test-method signature="amazon_brokenlinks()[pri:0, instance:class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink@1e6a3214]" started-at="2025-04-27T13:38:59 IST" name="amazon_brokenlinks" finished-at="2025-04-27T13:39:04 IST" duration-ms="5544" status="FAIL">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Cannot invoke "String.length()" because "spec" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Cannot invoke "String.length()" because "spec" is null
+at java.base/java.net.URL.<init>(URL.java:708)
+at java.base/java.net.URL.<init>(URL.java:569)
+at java.base/java.net.URL.<init>(URL.java:516)
+at class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink.verify_the_link(FindBrokenLink.java:39)
+at class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink.amazon_brokenlinks(FindBrokenLink.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "spec" is null
+at java.base/java.net.URL.<init>(URL.java:614)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google_search_Ayodhya -->
-        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:29 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:46:34 IST" duration-ms="4805" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Gorakhpur -->
-        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:34 IST" name="google_search_Noida" finished-at="2025-04-27T12:46:38 IST" duration-ms="4502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Noida -->
-        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:38 IST" name="google_search_bangalore" finished-at="2025-04-27T12:46:44 IST" duration-ms="5509" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_bangalore -->
-        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:44 IST" name="google_search_india" finished-at="2025-04-27T12:46:49 IST" duration-ms="5336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_india -->
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
-    </test> <!-- Testing on Chrome -->
-    <test started-at="2025-04-27T12:46:49 IST" name="Testing on Firefox" finished-at="2025-04-27T12:47:41 IST" duration-ms="51654">
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
-        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:46:49 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:47:01 IST" duration-ms="11696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Ayodhya -->
-        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:01 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:47:10 IST" duration-ms="9019" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Gorakhpur -->
-        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:10 IST" name="google_search_Noida" finished-at="2025-04-27T12:47:19 IST" duration-ms="9280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Noida -->
-        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:19 IST" name="google_search_bangalore" finished-at="2025-04-27T12:47:30 IST" duration-ms="10464" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_bangalore -->
-        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:30 IST" name="google_search_india" finished-at="2025-04-27T12:47:41 IST" duration-ms="11159" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_india -->
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
-    </test> <!-- Testing on Firefox -->
-    <test started-at="2025-04-27T12:47:41 IST" name="Testing on Edge" finished-at="2025-04-27T12:48:30 IST" duration-ms="49385">
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
-        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:47:41 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:47:50 IST" duration-ms="9367" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Ayodhya -->
-        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:47:50 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:48:01 IST" duration-ms="10309" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Gorakhpur -->
-        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:01 IST" name="google_search_Noida" finished-at="2025-04-27T12:48:10 IST" duration-ms="9749" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_Noida -->
-        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:11 IST" name="google_search_bangalore" finished-at="2025-04-27T12:48:20 IST" duration-ms="9263" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_bangalore -->
-        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:20 IST" name="google_search_india" finished-at="2025-04-27T12:48:30 IST" duration-ms="10554" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_search_india -->
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
-    </test> <!-- Testing on Edge -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- amazon_brokenlinks -->
+      </class> <!-- class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

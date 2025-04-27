@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers">
+      <class name="class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink">
         <methods>
-          <include name="google_search"/>
+          <include name="amazon_brokenlinks"/>
         </methods>
-      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers -->
+      </class> <!-- class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

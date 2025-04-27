@@ -54,7 +54,7 @@ public class Parameters_Annotation_With_5_Classes {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("Bangalore per capita income");
+		search.sendKeys("Bangalore lifestyle");
 		search.sendKeys(Keys.ENTER);
 	}
 
@@ -96,7 +96,7 @@ public class Parameters_Annotation_With_5_Classes {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("Ayodhya");
+		search.sendKeys("Ayodhya History");
 		search.sendKeys(Keys.ENTER);
 
 	}
@@ -118,7 +118,7 @@ public class Parameters_Annotation_With_5_Classes {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("Gorakhpur density");
+		search.sendKeys("Gorakhpur History");
 		search.sendKeys(Keys.ENTER);
 
 	}
