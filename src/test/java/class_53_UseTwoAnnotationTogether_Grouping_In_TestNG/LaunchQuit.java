@@ -6,13 +6,14 @@ import java.time.Duration;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class LaunchQuit {
-	ChromeDriver driver;
+	WebDriver driver;
 	@BeforeMethod
 	public void pre_condition() {
 		driver = new ChromeDriver();
@@ -22,7 +23,7 @@ public class LaunchQuit {
 	}
 	@AfterMethod
 	public void post_exe_steps() throws IOException, InterruptedException {
-		TakesScreenshot tss = driver;
+		TakesScreenshot tss = (TakesScreenshot) driver;
 		File source = tss.getScreenshotAs(OutputType.FILE);
 		File destination = new File("C:\\Users\\mukul\\eclipse-workspace\\Chandan_MavenProject_Selenium\\Screenshots\\TestCase"+Math.random()+".png");
 		FileHandler.copy(source, destination);

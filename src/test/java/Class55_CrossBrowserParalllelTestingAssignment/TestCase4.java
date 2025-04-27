@@ -1,0 +1,16 @@
+package Class55_CrossBrowserParalllelTestingAssignment;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class TestCase4 extends LaunchQuit {
+	@Test
+	public void search_India() {
+		WebElement search = driver.findElement(By.name("q"));
+		search.sendKeys("Indian Politics");
+		search.sendKeys(Keys.ENTER);
+	}
+
+}

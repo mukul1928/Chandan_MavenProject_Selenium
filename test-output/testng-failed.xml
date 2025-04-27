@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink">
+      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1">
         <methods>
-          <include name="amazon_brokenlinks"/>
+          <include name="pre_condtition"/>
+          <include name="searchmobile"/>
+          <include name="post_exe_steps"/>
         </methods>
-      </class> <!-- class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink -->
+      </class> <!-- Class55_CrossBrowserParalllelTestingAssignment.TestCase1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
