@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-26T22:37:24 IST" name="ChoosingBrowser Suite" finished-at="2025-04-26T22:37:47 IST" duration-ms="22475">
+  <suite started-at="2025-04-27T12:46:23 IST" name="Suite" finished-at="2025-04-27T12:48:30 IST" duration-ms="127200">
     <groups>
     </groups>
-    <test started-at="2025-04-26T22:37:24 IST" name="Testing of chrome" finished-at="2025-04-26T22:37:28 IST" duration-ms="4048">
-      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers">
-        <test-method signature="google_search(java.lang.String)[pri:0, instance:class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers@738dc9b]" started-at="2025-04-26T22:37:24 IST" name="google_search" finished-at="2025-04-26T22:37:28 IST" duration-ms="3984" status="PASS">
+    <test started-at="2025-04-27T12:46:23 IST" name="Testing on Chrome" finished-at="2025-04-27T12:46:49 IST" duration-ms="26063">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
+        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:23 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:46:29 IST" duration-ms="5770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -17,12 +17,56 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google_search -->
-      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers -->
-    </test> <!-- Testing of chrome -->
-    <test started-at="2025-04-26T22:37:28 IST" name="Testing on firefox" finished-at="2025-04-26T22:37:36 IST" duration-ms="7348">
-      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers">
-        <test-method signature="google_search(java.lang.String)[pri:0, instance:class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers@413d1baf]" started-at="2025-04-26T22:37:28 IST" name="google_search" finished-at="2025-04-26T22:37:36 IST" duration-ms="7342" status="PASS">
+        </test-method> <!-- google_search_Ayodhya -->
+        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:29 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:46:34 IST" duration-ms="4805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Gorakhpur -->
+        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:34 IST" name="google_search_Noida" finished-at="2025-04-27T12:46:38 IST" duration-ms="4502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Noida -->
+        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:38 IST" name="google_search_bangalore" finished-at="2025-04-27T12:46:44 IST" duration-ms="5509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_bangalore -->
+        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@2892d68]" started-at="2025-04-27T12:46:44 IST" name="google_search_india" finished-at="2025-04-27T12:46:49 IST" duration-ms="5336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_india -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
+    </test> <!-- Testing on Chrome -->
+    <test started-at="2025-04-27T12:46:49 IST" name="Testing on Firefox" finished-at="2025-04-27T12:47:41 IST" duration-ms="51654">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
+        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:46:49 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:47:01 IST" duration-ms="11696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,12 +76,56 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google_search -->
-      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers -->
-    </test> <!-- Testing on firefox -->
-    <test started-at="2025-04-26T22:37:36 IST" name="Testing of edge" finished-at="2025-04-26T22:37:47 IST" duration-ms="11006">
-      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers">
-        <test-method signature="google_search(java.lang.String)[pri:0, instance:class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers@273444fe]" started-at="2025-04-26T22:37:36 IST" name="google_search" finished-at="2025-04-26T22:37:47 IST" duration-ms="10997" status="PASS">
+        </test-method> <!-- google_search_Ayodhya -->
+        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:01 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:47:10 IST" duration-ms="9019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Gorakhpur -->
+        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:10 IST" name="google_search_Noida" finished-at="2025-04-27T12:47:19 IST" duration-ms="9280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Noida -->
+        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:19 IST" name="google_search_bangalore" finished-at="2025-04-27T12:47:30 IST" duration-ms="10464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_bangalore -->
+        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@7e057f43]" started-at="2025-04-27T12:47:30 IST" name="google_search_india" finished-at="2025-04-27T12:47:41 IST" duration-ms="11159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_india -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
+    </test> <!-- Testing on Firefox -->
+    <test started-at="2025-04-27T12:47:41 IST" name="Testing on Edge" finished-at="2025-04-27T12:48:30 IST" duration-ms="49385">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes">
+        <test-method signature="google_search_Ayodhya(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:47:41 IST" name="google_search_Ayodhya" finished-at="2025-04-27T12:47:50 IST" duration-ms="9367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,8 +135,52 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google_search -->
-      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.Parameters_AnnotationIn_TestNG_ChoosingBrowsers -->
-    </test> <!-- Testing of edge -->
-  </suite> <!-- ChoosingBrowser Suite -->
+        </test-method> <!-- google_search_Ayodhya -->
+        <test-method signature="google_search_Gorakhpur(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:47:50 IST" name="google_search_Gorakhpur" finished-at="2025-04-27T12:48:01 IST" duration-ms="10309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Gorakhpur -->
+        <test-method signature="google_search_Noida(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:01 IST" name="google_search_Noida" finished-at="2025-04-27T12:48:10 IST" duration-ms="9749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_Noida -->
+        <test-method signature="google_search_bangalore(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:11 IST" name="google_search_bangalore" finished-at="2025-04-27T12:48:20 IST" duration-ms="9263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_bangalore -->
+        <test-method signature="google_search_india(java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes@5890e879]" started-at="2025-04-27T12:48:20 IST" name="google_search_india" finished-at="2025-04-27T12:48:30 IST" duration-ms="10554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_search_india -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Parameters_Annotation_With_5_Classes -->
+    </test> <!-- Testing on Edge -->
+  </suite> <!-- Suite -->
 </testng-results>
