@@ -1,4 +1,4 @@
-package class_55_FindTheBrokenLinksOfAnyWebSites;
+package Chandan_Maven_ProjectAssignments.Selenium;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -13,37 +13,34 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class FindBrokenLink {
+public class Amazon_Find_Valid_and_Invalid_Links {
 	WebDriver driver;
 
 	@Test
-	public void amazon_brokenlinks() throws IOException {
-
+	public void AmazonValidAndInvalidLinks() throws IOException {
 		driver = new ChromeDriver();
+		driver.get("https://www.amazon.in");
 		driver.manage().window().maximize();
-		driver.navigate().to("https://www.amazon.in");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		int countoflinks = links.size();
 		System.out.println(countoflinks);
-
 		for (int i = 0; i < countoflinks; i++) {
-			WebElement linkText = links.get(i);
-			String url = linkText.getAttribute("href");
-			verify_the_link(url);
+			WebElement linktext = links.get(i);
+			String url = linktext.getAttribute("href");
+			verify_the_links(url);
 		}
 	}
 
-	static void verify_the_link(String url) throws IOException {
+	static void verify_the_links(String url) throws IOException {
 		try {
-			URL ul = new URL(url);
-
-			HttpURLConnection h1 = (HttpURLConnection) ul.openConnection();
+			URL u1 = new URL(url);
+			HttpURLConnection h1 = (HttpURLConnection) u1.openConnection();
 			h1.connect();
 			if (h1.getResponseCode() == 200) {
 				System.out.println("Link is valid " + h1.getResponseCode() + h1.getResponseMessage() + url);
 			} else {
-				System.out.println("The Link is Invalid " + h1.getResponseCode() + h1.getResponseMessage() + url);
+				System.out.println("The Link is invalid" + h1.getResponseCode() + h1.getResponseMessage() + url);
 			}
 		} catch (NullPointerException a1) {
 
@@ -51,4 +48,5 @@ public class FindBrokenLink {
 
 		}
 	}
+
 }

@@ -1,62 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-27T13:38:59 IST" name="Default suite" finished-at="2025-04-27T13:39:04 IST" duration-ms="5619">
+  <suite started-at="2025-04-27T20:33:17 IST" name="Default suite" finished-at="2025-04-27T20:36:09 IST" duration-ms="171854">
     <groups>
     </groups>
-    <test started-at="2025-04-27T13:38:59 IST" name="Default test" finished-at="2025-04-27T13:39:04 IST" duration-ms="5619">
-      <class name="class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink">
-        <test-method signature="amazon_brokenlinks()[pri:0, instance:class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink@1e6a3214]" started-at="2025-04-27T13:38:59 IST" name="amazon_brokenlinks" finished-at="2025-04-27T13:39:04 IST" duration-ms="5544" status="FAIL">
-          <exception class="java.net.MalformedURLException">
-            <message>
-              <![CDATA[Cannot invoke "String.length()" because "spec" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.MalformedURLException: Cannot invoke "String.length()" because "spec" is null
-at java.base/java.net.URL.<init>(URL.java:708)
-at java.base/java.net.URL.<init>(URL.java:569)
-at java.base/java.net.URL.<init>(URL.java:516)
-at class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink.verify_the_link(FindBrokenLink.java:39)
-at class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink.amazon_brokenlinks(FindBrokenLink.java:33)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "spec" is null
-at java.base/java.net.URL.<init>(URL.java:614)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.MalformedURLException -->
+    <test started-at="2025-04-27T20:33:17 IST" name="Default test" finished-at="2025-04-27T20:36:09 IST" duration-ms="171854">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Amazon_Find_Valid_and_Invalid_Links">
+        <test-method signature="AmazonValidAndInvalidLinks()[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Amazon_Find_Valid_and_Invalid_Links@368247b9]" started-at="2025-04-27T20:33:17 IST" name="AmazonValidAndInvalidLinks" finished-at="2025-04-27T20:36:09 IST" duration-ms="171781" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazon_brokenlinks -->
-      </class> <!-- class_55_FindTheBrokenLinksOfAnyWebSites.FindBrokenLink -->
+        </test-method> <!-- AmazonValidAndInvalidLinks -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Amazon_Find_Valid_and_Invalid_Links -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
