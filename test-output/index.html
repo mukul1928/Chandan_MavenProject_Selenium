@@ -298,8 +298,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testing in Chrome&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing in Chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Class55_CrossBrowserParalllelTestingAssignment.TestCase4&quot;/&gt;
@@ -308,7 +308,7 @@
       &lt;class name=&quot;Class55_CrossBrowserParalllelTestingAssignment.TestCase1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testing in Chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testing in Edge&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing in Edge&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Class55_CrossBrowserParalllelTestingAssignment.TestCase4&quot;/&gt;
@@ -317,7 +317,7 @@
       &lt;class name=&quot;Class55_CrossBrowserParalllelTestingAssignment.TestCase1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testing in Edge --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testing in Firefox&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Testing in Firefox&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Class55_CrossBrowserParalllelTestingAssignment.TestCase4&quot;/&gt;
@@ -371,58 +371,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchmobile')
-data.setCell(0, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
-data.setCell(0, 3, 349);
+data.setCell(0, 1, 'search_myntra')
+data.setCell(0, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
+data.setCell(0, 3, 3442);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchmobile')
-data.setCell(1, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
-data.setCell(1, 3, 304);
+data.setCell(1, 1, 'search_Google')
+data.setCell(1, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
+data.setCell(1, 3, 2661);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'search_Google')
-data.setCell(2, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
-data.setCell(2, 3, 268);
+data.setCell(2, 1, 'search_India')
+data.setCell(2, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase4')
+data.setCell(2, 3, 2503);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'search_India')
-data.setCell(3, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase4')
-data.setCell(3, 3, 267);
+data.setCell(3, 1, 'search_myntra')
+data.setCell(3, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
+data.setCell(3, 3, 2240);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'search_India')
-data.setCell(4, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase4')
-data.setCell(4, 3, 210);
+data.setCell(4, 1, 'search_Google')
+data.setCell(4, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
+data.setCell(4, 3, 1548);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'search_Google')
-data.setCell(5, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
-data.setCell(5, 3, 208);
+data.setCell(5, 1, 'search_India')
+data.setCell(5, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase4')
+data.setCell(5, 3, 1244);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'search_Google')
-data.setCell(6, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
-data.setCell(6, 3, 205);
+data.setCell(6, 1, 'searchmobile')
+data.setCell(6, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
+data.setCell(6, 3, 820);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'search_myntra')
-data.setCell(7, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
-data.setCell(7, 3, 202);
+data.setCell(7, 1, 'search_Google')
+data.setCell(7, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase2')
+data.setCell(7, 3, 649);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'searchmobile')
-data.setCell(8, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
-data.setCell(8, 3, 188);
+data.setCell(8, 1, 'search_myntra')
+data.setCell(8, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
+data.setCell(8, 3, 589);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'search_myntra')
-data.setCell(9, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
-data.setCell(9, 3, 180);
+data.setCell(9, 1, 'searchmobile')
+data.setCell(9, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
+data.setCell(9, 3, 533);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'search_India')
 data.setCell(10, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase4')
-data.setCell(10, 3, 174);
+data.setCell(10, 3, 371);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'search_myntra')
-data.setCell(11, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase3')
-data.setCell(11, 3, 122);
+data.setCell(11, 1, 'searchmobile')
+data.setCell(11, 2, 'Class55_CrossBrowserParalllelTestingAssignment.TestCase1')
+data.setCell(11, 3, 242);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -453,178 +453,196 @@ return data;
                 <span class="method-name">pre_condtition(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search_India</span>
-                <span class="method-start">5049 ms</span>
+                <span class="method-start">3710 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">5263 ms</span>
+                <span class="method-start">6221 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pre_condtition(chrome)</span>
-                <span class="method-start">6765 ms</span>
+                <span class="method-start">8377 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">search_myntra</span>
-                <span class="method-start">10080 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">10203 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(chrome)</span>
-                <span class="method-start">11565 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">search_Google</span>
-                <span class="method-start">14716 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">14925 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(chrome)</span>
-                <span class="method-start">17093 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchmobile</span>
-                <span class="method-start">20451 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">20641 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase4</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(edge)</span>
-                <span class="method-start">22160 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search_India</span>
-                <span class="method-start">31154 ms</span>
+                <span class="method-start">8742 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">31329 ms</span>
+                <span class="method-start">9989 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">search_India</span>
+                <span class="method-start">12139 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pre_condtition(edge)</span>
-                <span class="method-start">32963 ms</span>
+                <span class="method-start">12288 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">search_myntra</span>
-                <span class="method-start">38675 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">38878 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(edge)</span>
-                <span class="method-start">40970 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">search_Google</span>
-                <span class="method-start">46420 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">46626 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(edge)</span>
-                <span class="method-start">48379 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">searchmobile</span>
-                <span class="method-start">54088 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">post_exe_steps</span>
-                <span class="method-start">54439 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase4</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">pre_condtition(firefox)</span>
-                <span class="method-start">56508 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">search_India</span>
-                <span class="method-start">65889 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">66161 ms</span>
+                <span class="method-start">12511 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pre_condtition(firefox)</span>
-                <span class="method-start">66347 ms</span>
+                <span class="method-start">12812 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search_myntra</span>
-                <span class="method-start">73536 ms</span>
+                <span class="method-start">13929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">73718 ms</span>
+                <span class="method-start">16192 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(chrome)</span>
+                <span class="method-start">19364 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search_myntra</span>
+                <span class="method-start">21398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">24845 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(edge)</span>
+                <span class="method-start">25062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_Google</span>
+                <span class="method-start">25329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">28015 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search_myntra</span>
+                <span class="method-start">29705 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(chrome)</span>
+                <span class="method-start">30188 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase3</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">30296 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pre_condtition(firefox)</span>
-                <span class="method-start">73804 ms</span>
+                <span class="method-start">30582 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search_Google</span>
-                <span class="method-start">81447 ms</span>
+                <span class="method-start">35745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">81718 ms</span>
+                <span class="method-start">37303 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchmobile</span>
+                <span class="method-start">39444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">pre_condtition(edge)</span>
+                <span class="method-start">40176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">40265 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search_Google</span>
+                <span class="method-start">50749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchmobile</span>
+                <span class="method-start">50826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">51363 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">post_exe_steps</span>
+                <span class="method-start">51403 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Class55_CrossBrowserParalllelTestingAssignment.TestCase1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">pre_condtition(firefox)</span>
-                <span class="method-start">81862 ms</span>
+                <span class="method-start">51600 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchmobile</span>
-                <span class="method-start">89874 ms</span>
+                <span class="method-start">63331 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">post_exe_steps</span>
-                <span class="method-start">90187 ms</span>
+                <span class="method-start">63576 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

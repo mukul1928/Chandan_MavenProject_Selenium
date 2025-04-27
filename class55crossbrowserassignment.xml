@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Testing in Chrome">
-	  <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Testing in Edge">
-	  <parameter name="browser" value="edge"></parameter>
-    <classes>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Testing in Firefox">
-	  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2"/>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="Testing in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="Testing in Edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="Testing in Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase4" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase3" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase2" />
+			<class
+				name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
