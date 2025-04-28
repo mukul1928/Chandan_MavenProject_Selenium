@@ -70,8 +70,8 @@ public class Amazon_TestScenario_2 extends LaunchQuit {
 		addtocart.click();
 		WebElement proceedtobuy = driver.findElement(By.name("proceedToRetailCheckout"));
 		proceedtobuy.click();
-		WebElement changeaddress = driver.findElement(By.xpath("(//a[@class='a-link-normal expand-panel-button celwidget'])"));
-		changeaddress.click();
+		//WebElement changeaddress = driver.findElement(By.xpath("(//a[@class='a-link-normal expand-panel-button celwidget'])"));
+		//changeaddress.click();
 		Thread.sleep(2000);
 		WebElement delivertonewaddress = driver.findElement(By.xpath("(//input[@class='a-button-input'])[1]"));
 		delivertonewaddress.click();
@@ -80,11 +80,12 @@ public class Amazon_TestScenario_2 extends LaunchQuit {
 		WebElement changepayment = driver.findElement(By.xpath("(//a[@class='a-link-normal expand-panel-button celwidget'])[2]"));
 		changepayment.click();
 		Thread.sleep(1000);
-		WebElement netbanking = driver.findElement(By.xpath("(//input[@name='ppw-instrumentRowSelection'])[2]"));
+		WebElement netbanking = driver.findElement(By.xpath("//input[@id='pp-xKLfeh-107']"));
+		//WebElement netbanking = driver.findElement(By.xpath("(//input[@name='ppw-instrumentRowSelection'])[2]"));
 		netbanking.click();
-		WebElement chooseanoption = driver.findElement(By.xpath("(//span[.='Choose an Option'])[1]"));
-		chooseanoption.click();
-		WebElement sbi = driver.findElement(By.xpath("(//a[.='State Bank of India'])"));
-		sbi.click();
+		//WebElement chooseanoption = driver.findElement(By.xpath("(//span[.='Choose an Option'])[1]"));
+		//chooseanoption.click();
+		//WebElement sbi = driver.findElement(By.xpath("(//a[.='State Bank of India'])"));
+		//sbi.click();
 	}
 }
