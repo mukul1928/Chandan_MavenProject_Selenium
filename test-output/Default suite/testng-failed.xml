@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Class55_CrossBrowserParalllelTestingAssignment.TestCase1">
+      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_2">
         <methods>
-          <include name="pre_condtition"/>
-          <include name="searchmobile"/>
-          <include name="post_exe_steps"/>
+          <include name="pre_condition"/>
+          <include name="post_executions_steps"/>
+          <include name="Login_add_newAddress_searchproduct_reachpayment_netbanking"/>
         </methods>
-      </class> <!-- Class55_CrossBrowserParalllelTestingAssignment.TestCase1 -->
+      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

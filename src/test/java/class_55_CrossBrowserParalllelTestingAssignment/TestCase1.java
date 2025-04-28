@@ -1,16 +1,17 @@
-package Class55_CrossBrowserParalllelTestingAssignment;
+package class_55_CrossBrowserParalllelTestingAssignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class TestCase2 extends LaunchQuit {
+public class TestCase1 extends LaunchQuit {
 	@Test
-	public void search_Google() {
+	public void searchmobile() {
 		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("amazon");
+		search.sendKeys("mobile");
 		search.sendKeys(Keys.ENTER);
+
 	}
 
 }

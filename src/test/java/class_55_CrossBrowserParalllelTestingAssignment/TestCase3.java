@@ -1,17 +1,16 @@
-package Class55_CrossBrowserParalllelTestingAssignment;
+package class_55_CrossBrowserParalllelTestingAssignment;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class TestCase1 extends LaunchQuit {
+public class TestCase3 extends LaunchQuit {
 	@Test
-	public void searchmobile() {
+	public void search_myntra() {
 		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("mobile");
+		search.sendKeys("ps5");
 		search.sendKeys(Keys.ENTER);
-
 	}
 
 }
