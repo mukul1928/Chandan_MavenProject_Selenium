@@ -4,7 +4,7 @@
   <test thread-count="5" name="Testing on Chrome">
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_2"/>
+      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_2">
+      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4">
         <methods>
           <include name="pre_condition"/>
           <include name="post_executions_steps"/>
-          <include name="Login_add_newAddress_searchproduct_reachpayment_netbanking"/>
+          <include name="SearchMobile_Sorting_4Star_Brand"/>
         </methods>
-      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_2 -->
+      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

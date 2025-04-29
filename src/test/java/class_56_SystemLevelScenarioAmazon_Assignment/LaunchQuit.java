@@ -24,16 +24,20 @@ public class LaunchQuit {
 		if (nameofbrowser.equals("chrome")) {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
+			
 		}
 		if (nameofbrowser.equals("firefox")) {
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
+		
 		}
 		if (nameofbrowser.equals("edge")) {
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
+			
 		}
 		driver.navigate().to("https://www.amazon.in");
+		driver.navigate().refresh();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
@@ -41,7 +45,7 @@ public class LaunchQuit {
 	public void post_executions_steps() throws IOException, InterruptedException {
 		TakesScreenshot tss = (TakesScreenshot) driver;
 		File source = tss.getScreenshotAs(OutputType.FILE);
-		File destination = new File("C:\\Users\\mukul\\eclipse-workspace\\Chandan_MavenProject_Selenium\\assignment56_Screenshot "+ Math.random()+ ".png");
+		File destination = new File("C:\\Users\\mukul\\eclipse-workspace\\Chandan_MavenProject_Selenium\\SCreenshot"+ Math.random() +".png");
 		FileHandler.copy(source, destination);
 		Thread.sleep(3000);
 		//driver.close();
