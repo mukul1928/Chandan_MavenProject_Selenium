@@ -83,9 +83,9 @@ public class Amazon_TestScenario_2 extends LaunchQuit {
 		WebElement netbanking = driver.findElement(By.xpath("//input[@id='pp-xKLfeh-107']"));
 		//WebElement netbanking = driver.findElement(By.xpath("(//input[@name='ppw-instrumentRowSelection'])[2]"));
 		netbanking.click();
-		//WebElement chooseanoption = driver.findElement(By.xpath("(//span[.='Choose an Option'])[1]"));
-		//chooseanoption.click();
-		//WebElement sbi = driver.findElement(By.xpath("(//a[.='State Bank of India'])"));
-		//sbi.click();
+		WebElement chooseanoption = driver.findElement(By.xpath("(//span[.='Choose an Option'])[1]"));
+		chooseanoption.click();
+		WebElement sbi = driver.findElement(By.xpath("(//a[.='State Bank of India'])"));
+		sbi.click();
 	}
 }
