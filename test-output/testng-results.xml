@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T14:15:57 IST" name="Default suite" finished-at="2025-04-30T14:16:06 IST" duration-ms="9372">
+  <suite started-at="2025-04-30T20:13:20 IST" name="Default suite" finished-at="2025-04-30T20:13:43 IST" duration-ms="23187">
     <groups>
     </groups>
-    <test started-at="2025-04-30T14:15:57 IST" name="Default test" finished-at="2025-04-30T14:16:06 IST" duration-ms="9372">
-      <class name="class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions">
-        <test-method signature="Login_to_amazon(java.lang.String,java.lang.String)[pri:0, instance:class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions@6d4d66d2]" started-at="2025-04-30T14:15:57 IST" name="Login_to_amazon" data-provider="login_data" finished-at="2025-04-30T14:16:02 IST" duration-ms="5309" status="PASS">
+    <test started-at="2025-04-30T20:13:20 IST" name="Default test" finished-at="2025-04-30T20:13:43 IST" duration-ms="23187">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues">
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:20 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:23 IST" duration-ms="3725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_to_amazon -->
-        <test-method signature="Login_to_amazon(java.lang.String,java.lang.String)[pri:0, instance:class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions@6d4d66d2]" started-at="2025-04-30T14:16:02 IST" name="Login_to_amazon" data-provider="login_data" finished-at="2025-04-30T14:16:06 IST" duration-ms="3991" status="PASS">
+        </test-method> <!-- fb_login -->
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:23 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:26 IST" duration-ms="2904" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,8 +38,72 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_to_amazon -->
-      </class> <!-- class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions -->
+        </test-method> <!-- fb_login -->
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:26 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:30 IST" duration-ms="3168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shiva@4221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb_login -->
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:30 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:34 IST" duration-ms="4058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chandan@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb_login -->
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:34 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:38 IST" duration-ms="4633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stbymkt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manish!232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb_login -->
+        <test-method signature="fb_login(java.lang.String,java.lang.String)[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues@2a265ea9]" started-at="2025-04-30T20:13:38 IST" name="fb_login" data-provider="login_data" finished-at="2025-04-30T20:13:43 IST" duration-ms="4616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stbymukul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manis65433]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb_login -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
