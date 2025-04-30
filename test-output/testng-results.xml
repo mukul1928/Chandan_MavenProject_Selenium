@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T13:08:48 IST" name="Default suite" finished-at="2025-04-30T13:08:59 IST" duration-ms="10922">
+  <suite started-at="2025-04-30T14:15:57 IST" name="Default suite" finished-at="2025-04-30T14:16:06 IST" duration-ms="9372">
     <groups>
     </groups>
-    <test started-at="2025-04-30T13:08:48 IST" name="Default test" finished-at="2025-04-30T13:08:59 IST" duration-ms="10922">
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks">
-        <test-method signature="Myntra_ValidAndInvalidLinks()[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks@368247b9]" started-at="2025-04-30T13:08:48 IST" name="Myntra_ValidAndInvalidLinks" finished-at="2025-04-30T13:08:59 IST" duration-ms="10860" status="PASS">
+    <test started-at="2025-04-30T14:15:57 IST" name="Default test" finished-at="2025-04-30T14:16:06 IST" duration-ms="9372">
+      <class name="class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions">
+        <test-method signature="Login_to_amazon(java.lang.String,java.lang.String)[pri:0, instance:class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions@6d4d66d2]" started-at="2025-04-30T14:15:57 IST" name="Login_to_amazon" data-provider="login_data" finished-at="2025-04-30T14:16:02 IST" duration-ms="5309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rachana@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rachana@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Myntra_ValidAndInvalidLinks -->
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks -->
+        </test-method> <!-- Login_to_amazon -->
+        <test-method signature="Login_to_amazon(java.lang.String,java.lang.String)[pri:0, instance:class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions@6d4d66d2]" started-at="2025-04-30T14:16:02 IST" name="Login_to_amazon" data-provider="login_data" finished-at="2025-04-30T14:16:06 IST" duration-ms="3991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sree@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shre@412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_amazon -->
+      </class> <!-- class_57_DataProviderTwoDimensional.DataProviderInTestNG_FB_Login_MultiDimensions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

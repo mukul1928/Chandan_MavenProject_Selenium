@@ -22,7 +22,7 @@ public class Myntra_FindValidAndInvalidLinks {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.navigate().to("https://www.myntra.com");
+		driver.navigate().to("https://www.myntra.com");// will not allow to access the links in eclipse so change websites here
 		
 		//Count all the links in a web page
 		List<WebElement> links = driver.findElements(By.tagName("a"));
