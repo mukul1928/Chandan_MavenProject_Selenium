@@ -24,6 +24,8 @@ public class Myntra_FindValidAndInvalidLinks {
 		driver.navigate().to("https://www.myntra.com");
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		int countoflinks = links.size();
+		System.out.println(countoflinks);
+
 		for (int i = 0; i < countoflinks; i++) {
 			WebElement linktext = links.get(i);
 			String url = linktext.getAttribute("href");
