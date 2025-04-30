@@ -1,94 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-29T20:06:16 IST" name="Suite" finished-at="2025-04-29T20:06:53 IST" duration-ms="37309">
+  <suite started-at="2025-04-30T13:08:48 IST" name="Default suite" finished-at="2025-04-30T13:08:59 IST" duration-ms="10922">
     <groups>
     </groups>
-    <test started-at="2025-04-29T20:06:16 IST" name="Testing on Chrome" finished-at="2025-04-29T20:06:53 IST" duration-ms="37309">
-      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4">
-        <test-method is-config="true" signature="pre_condition(java.lang.String)[pri:0, instance:class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4@7526515b]" started-at="2025-04-29T20:06:16 IST" name="pre_condition" finished-at="2025-04-29T20:06:22 IST" duration-ms="6310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-04-30T13:08:48 IST" name="Default test" finished-at="2025-04-30T13:08:59 IST" duration-ms="10922">
+      <class name="Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks">
+        <test-method signature="Myntra_ValidAndInvalidLinks()[pri:0, instance:Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks@368247b9]" started-at="2025-04-30T13:08:48 IST" name="Myntra_ValidAndInvalidLinks" finished-at="2025-04-30T13:08:59 IST" duration-ms="10860" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pre_condition -->
-        <test-method signature="SearchMobile_Sorting_4Star_Brand()[pri:0, instance:class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4@7526515b]" started-at="2025-04-29T20:06:22 IST" name="SearchMobile_Sorting_4Star_Brand" finished-at="2025-04-29T20:06:50 IST" duration-ms="27579" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=135.0.7049.115)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2703febf4914a27ca9907e003f2398bc, clickElement {id=f.FD73B78C3E6CB268243ECF4DE4450AB9.d.C5609D9350833E16C56880600883F106.e.1096}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\mukul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55624/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2703febf4914a27ca9907e003f2398bc)] -> xpath: (//a[@class='a-link-normal s-navigation-item'])[17]]
-Session ID: 2703febf4914a27ca9907e003f2398bc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=135.0.7049.115)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2703febf4914a27ca9907e003f2398bc, clickElement {id=f.FD73B78C3E6CB268243ECF4DE4450AB9.d.C5609D9350833E16C56880600883F106.e.1096}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\mukul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55624/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2703febf4914a27ca9907e003f2398bc)] -> xpath: (//a[@class='a-link-normal s-navigation-item'])[17]]
-Session ID: 2703febf4914a27ca9907e003f2398bc
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4.SearchMobile_Sorting_4Star_Brand(Amazon_TestScenario_4.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchMobile_Sorting_4Star_Brand -->
-        <test-method is-config="true" signature="post_executions_steps()[pri:0, instance:class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4@7526515b]" started-at="2025-04-29T20:06:50 IST" name="post_executions_steps" finished-at="2025-04-29T20:06:53 IST" duration-ms="3285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- post_executions_steps -->
-      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4 -->
-    </test> <!-- Testing on Chrome -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Myntra_ValidAndInvalidLinks -->
+      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.Myntra_FindValidAndInvalidLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

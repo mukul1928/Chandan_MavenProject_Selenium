@@ -3,6 +3,7 @@ package Chandan_Maven_ProjectAssignments.Selenium;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.SocketException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.List;
@@ -22,6 +23,8 @@ public class Myntra_FindValidAndInvalidLinks {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.navigate().to("https://www.myntra.com");
+		
+		//Count all the links in a web page
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		int countoflinks = links.size();
 		System.out.println(countoflinks);
@@ -49,6 +52,8 @@ public class Myntra_FindValidAndInvalidLinks {
 
 		} catch (NullPointerException a) {
 
+		} catch (SocketException i) {
+			
 		}
 	}
 
