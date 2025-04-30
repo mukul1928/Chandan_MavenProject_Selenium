@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues">
+      <class name="class_58_Assertion_In_TestNG.HowToPass_TestCases">
         <methods>
-          <include name="fb_login"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.DataProviderMultiDimensionWith5SetOfValues -->
+      </class> <!-- class_58_Assertion_In_TestNG.HowToPass_TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
