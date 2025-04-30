@@ -1,6 +1,5 @@
 package class_58_Assertion_In_TestNG;
 
-import org.junit.Assert;
 import org.testng.annotations.Test;
 
 public class HowToPass_TestCases {
