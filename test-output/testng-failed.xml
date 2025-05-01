@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin">
+      <class name="class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion">
         <methods>
           <include name="amazon_login"/>
         </methods>
-      </class> <!-- class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin -->
+      </class> <!-- class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,23 +2,24 @@
 <testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-01T13:07:48 IST" name="Default suite" finished-at="2025-05-01T13:07:48 IST" duration-ms="112">
+  <suite started-at="2025-05-01T19:49:58 IST" name="Default suite" finished-at="2025-05-01T19:50:45 IST" duration-ms="47676">
     <groups>
     </groups>
-    <test started-at="2025-05-01T13:07:48 IST" name="Default test" finished-at="2025-05-01T13:07:48 IST" duration-ms="112">
-      <class name="class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin">
-        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin@45099dd3]" started-at="2025-05-01T13:07:48 IST" name="amazon_login" finished-at="2025-05-01T13:07:48 IST" duration-ms="24" status="SKIP">
+    <test started-at="2025-05-01T19:49:58 IST" name="Default test" finished-at="2025-05-01T19:50:45 IST" duration-ms="47676">
+      <class name="class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion">
+        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion@20140db9]" started-at="2025-05-01T19:49:58 IST" name="amazon_login" finished-at="2025-05-01T19:50:08 IST" duration-ms="10233" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin.amazon_login(TestCase1_RetryLogin.java:10)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion.amazon_login(Amazon_Login_UsingAssertion.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,18 +54,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_login -->
-        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin@45099dd3]" started-at="2025-05-01T13:07:48 IST" name="amazon_login" finished-at="2025-05-01T13:07:48 IST" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion@20140db9]" started-at="2025-05-01T19:50:08 IST" name="amazon_login" finished-at="2025-05-01T19:50:20 IST" duration-ms="11583" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin.amazon_login(TestCase1_RetryLogin.java:10)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion.amazon_login(Amazon_Login_UsingAssertion.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,18 +101,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_login -->
-        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin@45099dd3]" started-at="2025-05-01T13:07:48 IST" name="amazon_login" finished-at="2025-05-01T13:07:48 IST" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="amazon_login()[pri:0, instance:class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion@20140db9]" started-at="2025-05-01T19:50:20 IST" name="amazon_login" finished-at="2025-05-01T19:50:31 IST" duration-ms="11451" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin.amazon_login(TestCase1_RetryLogin.java:10)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion.amazon_login(Amazon_Login_UsingAssertion.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,18 +148,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_login -->
-        <test-method signature="amazon_login()[pri:0, instance:class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin@45099dd3]" started-at="2025-05-01T13:07:48 IST" name="amazon_login" finished-at="2025-05-01T13:07:48 IST" duration-ms="2" status="FAIL">
+        <test-method signature="amazon_login()[pri:0, instance:class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion@20140db9]" started-at="2025-05-01T19:50:31 IST" name="amazon_login" finished-at="2025-05-01T19:50:45 IST" duration-ms="14326" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Sorry ! the title are not matching expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin.amazon_login(TestCase1_RetryLogin.java:10)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion.amazon_login(Amazon_Login_UsingAssertion.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,7 +195,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_login -->
-      </class> <!-- class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin -->
+      </class> <!-- class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
