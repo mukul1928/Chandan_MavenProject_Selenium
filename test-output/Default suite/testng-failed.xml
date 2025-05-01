@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion">
+      <class name="class_61_Work_With_Data_Driven_Testing.DataDrivenTesting_ExcelSheet">
         <methods>
-          <include name="amazon_login"/>
+          <include name="DDT"/>
         </methods>
-      </class> <!-- class_60_IRetryAnalyzer_DataDrivenTesting.Amazon_Login_UsingAssertion -->
+      </class> <!-- class_61_Work_With_Data_Driven_Testing.DataDrivenTesting_ExcelSheet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
