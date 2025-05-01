@@ -39,6 +39,7 @@ public class Amazon_TestScenario_3 extends LaunchQuit {
 		delete1.click();
 		WebElement delete2 = driver.findElement(By.xpath("(//input[@name='submit.deleteItem'])[2]"));
 		delete2.click();
+		
 		WebElement searchshoes = driver.findElement(By.id("twotabsearchtextbox"));
 		searchshoes.sendKeys("shoes");
 		searchshoes.sendKeys(Keys.ENTER);

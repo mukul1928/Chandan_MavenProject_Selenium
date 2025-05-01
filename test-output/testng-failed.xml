@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Chandan_Maven_ProjectAssignments.Selenium.FlipkartLogin_With_Assertion_in_TestNG">
+      <class name="class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin">
         <methods>
-          <include name="Flipkart_Login_Using_Assertion"/>
+          <include name="amazon_login"/>
         </methods>
-      </class> <!-- Chandan_Maven_ProjectAssignments.Selenium.FlipkartLogin_With_Assertion_in_TestNG -->
+      </class> <!-- class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases.TestCase1_RetryLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

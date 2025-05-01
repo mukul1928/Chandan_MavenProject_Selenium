@@ -2,7 +2,7 @@ package class_58_Assertion_In_TestNG;
 
 import org.testng.annotations.Test;
 
-public class HowToPass_TestCases {
+public class HowToPass_TestCases_AssertionMethod_In_TestNG {
 	@Test
 	public void testcase1() {
 		int a = 100;
