@@ -32,7 +32,7 @@ public class DDT_Program {
 		
 		//===========================================
 		
-		/*driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.amazon.in");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -48,7 +48,7 @@ public class DDT_Program {
 		WebElement pas = driver.findElement(By.id("ap_password"));
 		pas.sendKeys(pwd);
 		WebElement signin = driver.findElement(By.id("signInSubmit"));
-		signin.click();*/
+		signin.click();
 	}
 
 }

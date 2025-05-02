@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_61_Work_With_Data_Driven_Testing.DataDrivenTesting_ExcelSheet">
+      <class name="class_62_Reporter.log_Listeners_In_TestNG.TestCaseforListeners">
         <methods>
-          <include name="DDT"/>
+          <include name="testcase2"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- class_61_Work_With_Data_Driven_Testing.DataDrivenTesting_ExcelSheet -->
+      </class> <!-- class_62_Reporter.log_Listeners_In_TestNG.TestCaseforListeners -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
