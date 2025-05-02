@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_62_Reporter.log_Listeners_In_TestNG.TestCaseforListeners">
+      <class name="class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout">
         <methods>
-          <include name="testcase2"/>
-          <include name="testcase1"/>
+          <include name="Amazon_login_then_logout"/>
         </methods>
-      </class> <!-- class_62_Reporter.log_Listeners_In_TestNG.TestCaseforListeners -->
+      </class> <!-- class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
