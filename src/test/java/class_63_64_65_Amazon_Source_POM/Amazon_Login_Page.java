@@ -1,4 +1,4 @@
-package class_63_64_Amazon_Source_POM;
+package class_63_64_65_Amazon_Source_POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,7 +42,7 @@ public class Amazon_Login_Page {
 	// c) Initialiting the elements using PageFactory class inside the constructor
 
 	public Amazon_Login_Page(WebDriver driver) {
-		driver = this.driver;
+		//driver = this.driver;
 		PageFactory.initElements(driver, this);
 	}
 }

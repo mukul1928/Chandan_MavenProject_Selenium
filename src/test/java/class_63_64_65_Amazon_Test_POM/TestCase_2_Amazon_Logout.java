@@ -1,13 +1,14 @@
-package class_63_64_Amazon_Test_POM;
+package class_63_64_65_Amazon_Test_POM;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import class_63_64_Amazon_Source_POM.Amazon_Home_Page;
-import class_63_64_Amazon_Source_POM.Amazon_Login_Page;
+import class_63_64_65_Amazon_Source_POM.Amazon_Home_Page;
+import class_63_64_65_Amazon_Source_POM.Amazon_Login_Page;
 
 public class TestCase_2_Amazon_Logout {
 	WebDriver driver;
@@ -23,7 +24,9 @@ public class TestCase_2_Amazon_Logout {
 		a.password();
 		a.clickonsignin();
 		Amazon_Home_Page a1 = new Amazon_Home_Page(driver);
-		a1.hoveroveraccountlist();
+		Actions a2 = new Actions(driver);
+		a2.moveToElement(hoveroveraccountlist).perform();
+		//a1.hoveroveraccountlist();
 		a1.clicksignout();
 		
 	}

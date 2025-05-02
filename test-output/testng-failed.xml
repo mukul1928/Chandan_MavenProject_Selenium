@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout">
+      <class name="class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting">
         <methods>
-          <include name="Amazon_login_then_logout"/>
+          <include name="searching_sorting_new_Arrival_4plus_ratings"/>
         </methods>
-      </class> <!-- class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout -->
+      </class> <!-- class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

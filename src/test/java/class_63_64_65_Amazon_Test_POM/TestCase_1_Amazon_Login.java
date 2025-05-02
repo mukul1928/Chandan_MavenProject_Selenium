@@ -1,4 +1,4 @@
-package class_63_64_Amazon_Test_POM;
+package class_63_64_65_Amazon_Test_POM;
 
 import java.time.Duration;
 
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import class_63_64_Amazon_Source_POM.Amazon_Login_Page;
+import class_63_64_65_Amazon_Source_POM.Amazon_Login_Page;
 
 public class TestCase_1_Amazon_Login {
 	WebDriver driver;

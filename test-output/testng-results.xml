@@ -2,23 +2,56 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T13:34:57 IST" name="Default suite" finished-at="2025-05-02T13:35:05 IST" duration-ms="7279">
+  <suite started-at="2025-05-02T21:28:54 IST" name="Default suite" finished-at="2025-05-02T21:29:07 IST" duration-ms="12161">
     <groups>
     </groups>
-    <test started-at="2025-05-02T13:34:57 IST" name="Default test" finished-at="2025-05-02T13:35:05 IST" duration-ms="7279">
-      <class name="class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout">
-        <test-method signature="Amazon_login_then_logout()[pri:0, instance:class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout@26d9b808]" started-at="2025-05-02T13:34:58 IST" name="Amazon_login_then_logout" finished-at="2025-05-02T13:35:05 IST" duration-ms="7175" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+    <test started-at="2025-05-02T21:28:54 IST" name="Default test" finished-at="2025-05-02T21:29:07 IST" duration-ms="12161">
+      <class name="class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting">
+        <test-method signature="searching_sorting_new_Arrival_4plus_ratings()[pri:0, instance:class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting@f78a47e]" started-at="2025-05-02T21:28:54 IST" name="searching_sorting_new_Arrival_4plus_ratings" finished-at="2025-05-02T21:29:06 IST" duration-ms="12092" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [993a7291cad33636809bc6130337497b, sendKeysToElement {id=f.725F934526E7D7A48F7ACD3F2B9B6A46.d.C14149AB3717602BA1BBEEC7BCED1311.e.296, value=[Ljava.lang.CharSequence;@5cbf9e9f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\mukul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60255/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (993a7291cad33636809bc6130337497b)] -> xpath: (//span[.='Featured'])]
+Session ID: 993a7291cad33636809bc6130337497b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [993a7291cad33636809bc6130337497b, sendKeysToElement {id=f.725F934526E7D7A48F7ACD3F2B9B6A46.d.C14149AB3717602BA1BBEEC7BCED1311.e.296, value=[Ljava.lang.CharSequence;@5cbf9e9f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\mukul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60255/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (993a7291cad33636809bc6130337497b)] -> xpath: (//span[.='Featured'])]
+Session ID: 993a7291cad33636809bc6130337497b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
-at class_63_64_Amazon_Source_POM.Amazon_Login_Page.emailid(Amazon_Login_Page.java:27)
-at class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout.Amazon_login_then_logout(TestCase_2_Amazon_Logout.java:21)
+at class_63_64_65_Amazon_Source_POM.Amazon_Searchresults_Page.sorting_the_product_new_Arrivals(Amazon_Searchresults_Page.java:29)
+at class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting.searching_sorting_new_Arrival_4plus_ratings(TestCase_4_Product_Sorting.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,11 +82,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Amazon_login_then_logout -->
-      </class> <!-- class_63_64_Amazon_Test_POM.TestCase_2_Amazon_Logout -->
+        </test-method> <!-- searching_sorting_new_Arrival_4plus_ratings -->
+      </class> <!-- class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
