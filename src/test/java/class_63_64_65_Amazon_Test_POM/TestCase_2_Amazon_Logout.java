@@ -24,9 +24,7 @@ public class TestCase_2_Amazon_Logout {
 		a.password();
 		a.clickonsignin();
 		Amazon_Home_Page a1 = new Amazon_Home_Page(driver);
-		Actions a2 = new Actions(driver);
-		a2.moveToElement(hoveroveraccountlist).perform();
-		//a1.hoveroveraccountlist();
+		a1.hoveroveraccountlist();
 		a1.clicksignout();
 		
 	}

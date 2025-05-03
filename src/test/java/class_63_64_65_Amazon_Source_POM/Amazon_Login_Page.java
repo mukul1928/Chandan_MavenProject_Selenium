@@ -42,7 +42,7 @@ public class Amazon_Login_Page {
 	// c) Initialiting the elements using PageFactory class inside the constructor
 
 	public Amazon_Login_Page(WebDriver driver) {
-		//driver = this.driver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 }

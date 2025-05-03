@@ -24,7 +24,9 @@ public class Amazon_Home_Page {
 
 	// step 2
 	public void hoveroveraccountlist() {
-		hoveraccountlists.click();
+		Actions a = new Actions(driver);
+		a.moveToElement(hoveraccountlists).perform();
+		
 	}
 	
 	public void search_the_product() {
@@ -39,7 +41,7 @@ public class Amazon_Home_Page {
 
 	// step 3
 	public Amazon_Home_Page(WebDriver driver) {
-		//driver = this.driver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
