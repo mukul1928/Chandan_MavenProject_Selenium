@@ -1,4 +1,4 @@
-package class_63_64_65_Amazon_Test_POM;
+package class_63_64_65_67_Amazon_Test_POM;
 
 import java.time.Duration;
 import java.util.Iterator;
@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import class_63_64_65_Amazon_Source_POM.Amazon_Home_Page;
-import class_63_64_65_Amazon_Source_POM.Amazon_Searchresults_Page;
+import class_63_64_65_67_Amazon_Source_POM.Amazon_Home_Page;
+import class_63_64_65_67_Amazon_Source_POM.Amazon_Searchresults_Page;
 
 
 public class TestCase_4_Product_Sorting {

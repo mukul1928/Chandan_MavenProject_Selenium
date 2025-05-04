@@ -1,4 +1,4 @@
-package class_63_64_65_Amazon_Source_POM;
+package class_63_64_65_67_Amazon_Source_POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

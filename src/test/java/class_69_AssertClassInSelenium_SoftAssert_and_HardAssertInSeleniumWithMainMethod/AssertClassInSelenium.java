@@ -1,0 +1,5 @@
+package class_69_AssertClassInSelenium_SoftAssert_and_HardAssertInSeleniumWithMainMethod;
+
+public class AssertClassInSelenium {
+
+}
