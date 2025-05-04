@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting">
+      <class name="class_68_LaunchingBrowsers_Before_ThreeYearsAgo.SeleniumBrowser">
         <methods>
-          <include name="searching_sorting_new_Arrival_4plus_ratings"/>
+          <include name="launch_browsers"/>
         </methods>
-      </class> <!-- class_63_64_65_Amazon_Test_POM.TestCase_4_Product_Sorting -->
+      </class> <!-- class_68_LaunchingBrowsers_Before_ThreeYearsAgo.SeleniumBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
