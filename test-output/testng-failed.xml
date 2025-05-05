@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_68_LaunchingBrowsers_Before_ThreeYearsAgo.SeleniumBrowser">
+      <class name="class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_X_Coordinates_And_Y_Coordinates_Google">
         <methods>
-          <include name="launch_browsers"/>
+          <include name="ScrollUp_Down_Google"/>
         </methods>
-      </class> <!-- class_68_LaunchingBrowsers_Before_ThreeYearsAgo.SeleniumBrowser -->
+      </class> <!-- class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_X_Coordinates_And_Y_Coordinates_Google -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
