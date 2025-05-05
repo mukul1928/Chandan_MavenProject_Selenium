@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T17:31:47 IST" name="Default suite" finished-at="2025-05-05T17:31:55 IST" duration-ms="7323">
+  <suite started-at="2025-05-05T17:40:04 IST" name="Default suite" finished-at="2025-05-05T17:40:09 IST" duration-ms="5912">
     <groups>
     </groups>
-    <test started-at="2025-05-05T17:31:47 IST" name="Default test" finished-at="2025-05-05T17:31:55 IST" duration-ms="7323">
+    <test started-at="2025-05-05T17:40:04 IST" name="Default test" finished-at="2025-05-05T17:40:09 IST" duration-ms="5912">
       <class name="class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon">
-        <test-method signature="amazon_xs_ys()[pri:0, instance:class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon@26d9b808]" started-at="2025-05-05T17:31:47 IST" name="amazon_xs_ys" finished-at="2025-05-05T17:31:55 IST" duration-ms="7255" status="PASS">
+        <test-method signature="amazon_xs_ys()[pri:0, instance:class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon@26d9b808]" started-at="2025-05-05T17:40:04 IST" name="amazon_xs_ys" finished-at="2025-05-05T17:40:09 IST" duration-ms="5848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_xs_ys -->

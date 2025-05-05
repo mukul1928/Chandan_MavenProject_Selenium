@@ -1,4 +1,4 @@
-package class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown;
+package class_72_Stack_and_Vector_Class_in_Collection_FindXs_And_FindYs;
 
 import java.util.Enumeration;
 import java.util.Vector;

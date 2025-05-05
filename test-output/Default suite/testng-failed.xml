@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_X_Coordinates_And_Y_Coordinates_Google">
+      <class name="class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon">
         <methods>
-          <include name="ScrollUp_Down_Google"/>
+          <include name="amazon_xs_ys"/>
         </methods>
-      </class> <!-- class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_X_Coordinates_And_Y_Coordinates_Google -->
+      </class> <!-- class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

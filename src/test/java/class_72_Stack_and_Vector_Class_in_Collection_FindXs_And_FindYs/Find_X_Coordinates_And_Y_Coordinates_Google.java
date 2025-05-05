@@ -1,4 +1,4 @@
-package class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown;
+package class_72_Stack_and_Vector_Class_in_Collection_FindXs_And_FindYs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
@@ -7,16 +7,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Find_Xs_And_Ys_Amazon {
+public class Find_X_Coordinates_And_Y_Coordinates_Google {
 	WebDriver driver;
 
 	@Test
-	public void amazon_xs_ys() {
+	public void ScrollUp_Down_Google() {
 		driver = new ChromeDriver();
-		driver.navigate().to("https://www.amazon.in");
 		driver.manage().window().maximize();
-		WebElement el = driver.findElement(By.id("twotabsearchtextbox"));
-		Point p1 = el.getLocation();
+		driver.navigate().to("https://www.google.com");
+		WebElement ele = driver.findElement(By.linkText("//a[.='Gmail']"));
+		// ele.click();
+
+		Point p1 = ele.getLocation();
 		System.out.println(p1.getX());
 		System.out.println(p1.getY());
 	}
