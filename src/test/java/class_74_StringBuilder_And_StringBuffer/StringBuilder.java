@@ -5,13 +5,10 @@ public class StringBuilder {
 		StringBuffer s = new StringBuffer("Chandan");
 		s = s.append(" Kumar Pandey");// its modified
 		System.out.println(s);
-		
-		
-		
+
 		String b = "Chandan";
 		b = b.concat(" Kumar Pandey");// The String is immutable something which can't be changed called immutable
 		System.out.println(b);
-		
 
 	}
 
