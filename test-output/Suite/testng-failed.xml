@@ -4,13 +4,13 @@
   <test thread-count="5" parallel="tests" name="Testing on Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4">
+      <class name="class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_1">
         <methods>
-          <include name="pre_condition"/>
-          <include name="post_executions_steps"/>
-          <include name="SearchMobile_Sorting_4Star_Brand"/>
+          <include name="pre_condtition"/>
+          <include name="Login_to_payment"/>
+          <include name="post_exe_steps"/>
         </methods>
-      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_4 -->
+      </class> <!-- class_56_SystemLevelScenarioAmazon_Assignment.Amazon_TestScenario_1 -->
     </classes>
   </test> <!-- Testing on Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

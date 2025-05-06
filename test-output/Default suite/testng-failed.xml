@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon">
+      <class name="class_72_73_Stack_and_Vector_Class_in_Collection_FindXs_And_FindYs_ScrollUp_ScrollDown.ScrollDown_YouTube_NeverEndingLoop_ForLoop">
         <methods>
-          <include name="amazon_xs_ys"/>
+          <include name="YouTubeScrollDown"/>
         </methods>
-      </class> <!-- class_72_Stack_and_Vector_Class_in_Collection_ScrollUpAndDown.Find_Xs_And_Ys_Amazon -->
+      </class> <!-- class_72_73_Stack_and_Vector_Class_in_Collection_FindXs_And_FindYs_ScrollUp_ScrollDown.ScrollDown_YouTube_NeverEndingLoop_ForLoop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
