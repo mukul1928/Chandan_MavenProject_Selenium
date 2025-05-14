@@ -8,11 +8,13 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /*
  * login->searching->selecting->adding to wishlist->adding to cart->reach till payment page and select credit card payment method
  */
+@Listeners(Listeners_Class.class)
 public class Amazon_TestScenario_1 extends LaunchQuit {
 	@Test
 	public void Login_to_payment() throws InterruptedException {

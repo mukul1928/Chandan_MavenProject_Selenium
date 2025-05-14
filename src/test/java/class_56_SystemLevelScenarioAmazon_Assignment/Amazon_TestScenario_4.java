@@ -6,12 +6,13 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 //Search for mobile->sort the product based on only 4 stars ratings and also sort it using brand name->
 //->sort the result using newest arrivals->sort the mobile of 128gb capacity->select the 2nd product->
 //increse the quantity to 2->add it to cart
-
+@Listeners(Listeners_Class.class)
 public class Amazon_TestScenario_4 extends LaunchQuit {
 	@Test
 	public void SearchMobile_Sorting_4Star_Brand() throws InterruptedException {

@@ -7,10 +7,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 //Login->Add a new address->search a new product->add it to cart with the new address added->
 //-->reach till payment page->select the net banking payment page
+@Listeners(Listeners_Class.class)
 public class Amazon_TestScenario_2 extends LaunchQuit {
 	
 	@Test

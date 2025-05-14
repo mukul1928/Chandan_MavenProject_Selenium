@@ -7,12 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 //Login->Go to wishlist->remove 2 product from wishlist->search for shoes->
 //->add the shoes to newly created wishlist->add those two shoes to the cart->logout
 
-
+@Listeners(Listeners_Class.class)
 public class Amazon_TestScenario_3 extends LaunchQuit {
 	@Test
 	public void Login_RemoveProductFromWishlist_Cart_Logout() throws InterruptedException {

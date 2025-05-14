@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-06T16:03:08 IST" name="Default suite" finished-at="2025-05-06T16:03:12 IST" duration-ms="3690">
+  <suite started-at="2025-05-14T13:51:50 IST" name="Suite" finished-at="2025-05-14T13:51:50 IST" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2025-05-06T16:03:08 IST" name="Default test" finished-at="2025-05-06T16:03:12 IST" duration-ms="3690">
-      <class name="class_75_Find_Dimensions_Of_Components_Find_XpathUsing_And_Or_Operators.Writing_Xpath_Using_And_Or_Operators">
-        <test-method signature="google_xpath_and_or_operators()[pri:0, instance:class_75_Find_Dimensions_Of_Components_Find_XpathUsing_And_Or_Operators.Writing_Xpath_Using_And_Or_Operators@26d9b808]" started-at="2025-05-06T16:03:08 IST" name="google_xpath_and_or_operators" finished-at="2025-05-06T16:03:12 IST" duration-ms="3619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_xpath_and_or_operators -->
-      </class> <!-- class_75_Find_Dimensions_Of_Components_Find_XpathUsing_And_Or_Operators.Writing_Xpath_Using_And_Or_Operators -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Suite -->
 </testng-results>

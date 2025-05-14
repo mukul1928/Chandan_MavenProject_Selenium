@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Arraylist {
 	public static void main(String[] args) {
-		ArrayList a = new ArrayList();
+		ArrayList<Comparable> a = new ArrayList<Comparable>();
 		// The parameter of add method is Object
 		a.add("Ram");
 		a.add("Shiva");
@@ -14,7 +14,7 @@ public class Arraylist {
 		a.add(0, "Hari");// the index position of 0 I am storing Hari here
 		System.out.println(a);// it follow indexing
 
-		ArrayList a1 = new ArrayList();
+		ArrayList<Comparable> a1 = new ArrayList<Comparable>();
 		a1.add("Krishna");
 		a1.addAll(a);
 		System.out.println(a1);
