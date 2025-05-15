@@ -1,4 +1,4 @@
-package class_75_Find_Dimensions_Of_Components_Find_XpathUsing_And_Or_Operators;
+package class_75_Find_Dimensions_Of_Components_Find_Xpath_Using_And_Or_Operators;
 
 import java.time.Duration;
 
