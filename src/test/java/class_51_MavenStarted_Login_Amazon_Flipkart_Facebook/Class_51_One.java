@@ -18,6 +18,7 @@ public class Class_51_One {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.navigate().to("https://www.amazon.in");
+		System.out.println(driver.manage().getCookies());//To get the cookies we write this code of line
 		WebElement hoverover = driver.findElement(By.xpath("(//span[.='Hello, sign in'])"));
 		Actions a1 = new Actions(driver);
 		a1.moveToElement(hoverover).perform();
