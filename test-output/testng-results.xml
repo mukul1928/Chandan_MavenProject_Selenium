@@ -2,48 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-07T22:03:13 IST" name="Default suite" finished-at="2025-07-07T22:03:13 IST" duration-ms="70">
+  <suite started-at="2025-10-31T11:48:51 IST" name="Default suite" finished-at="2025-10-31T11:48:58 IST" duration-ms="6594">
     <groups>
     </groups>
-    <test started-at="2025-07-07T22:03:13 IST" name="Default test" finished-at="2025-07-07T22:03:13 IST" duration-ms="70">
-      <class name="class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG">
-        <test-method is-config="true" signature="BS()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="BS" finished-at="2025-07-07T22:03:13 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="BT" finished-at="2025-07-07T22:03:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="BC" finished-at="2025-07-07T22:03:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="BM" finished-at="2025-07-07T22:03:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BM -->
-        <test-method signature="testcase1()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="testcase1" finished-at="2025-07-07T22:03:13 IST" duration-ms="5" status="PASS">
+    <test started-at="2025-10-31T11:48:51 IST" name="Default test" finished-at="2025-10-31T11:48:58 IST" duration-ms="6594">
+      <class name="class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.SwitchCase">
+        <test-method signature="testcase1()[pri:0, instance:class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.SwitchCase@644baf4a]" started-at="2025-10-31T11:48:51 IST" name="testcase1" finished-at="2025-10-31T11:48:58 IST" duration-ms="6533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="AM" finished-at="2025-07-07T22:03:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="AC" finished-at="2025-07-07T22:03:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="AT" finished-at="2025-07-07T22:03:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG@606e4010]" started-at="2025-07-07T22:03:13 IST" name="AS" finished-at="2025-07-07T22:03:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AS -->
-      </class> <!-- class_52_Parameters_InTest_DifferentAnnotationsInTestNG.DifferentAnnotationInTestNG -->
+      </class> <!-- class_54_LaunchBrowserInGeneric_ParametersAnnotationInTestNG.SwitchCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
