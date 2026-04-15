@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,14 +15,15 @@ public class Amazon_Login_With_Assertion_TestNG {
 	WebDriver driver;
 
 	@Test
-	public void amazon_login() {
-		driver = new ChromeDriver();
+	public void amazon_login() throws InterruptedException {
+		driver = new FirefoxDriver();
 		driver.navigate().to("https://www.amazon.in");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		WebElement hover = driver.findElement(By.xpath("(//span[.='Hello, sign in'])"));
 		Actions a = new Actions(driver);
 		a.moveToElement(hover).perform();
+		Thread.sleep(4000);
 		WebElement sign = driver.findElement(By.xpath("(//span[.='Sign in'])"));
 		sign.click();
 		WebElement email = driver.findElement(By.id("ap_email_login"));

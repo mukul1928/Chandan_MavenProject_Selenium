@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="class_53_UseTwoAnnotationTogether_Grouping_In_TestNG.TestCase1">
+      <class name="class_58_Assertion_In_TestNG.Amazon_Login_With_Assertion_TestNG">
         <methods>
-          <include name="pre_condition"/>
-          <include name="post_exe_steps"/>
-          <include name="searching_the_product"/>
+          <include name="amazon_login"/>
         </methods>
-      </class> <!-- class_53_UseTwoAnnotationTogether_Grouping_In_TestNG.TestCase1 -->
+      </class> <!-- class_58_Assertion_In_TestNG.Amazon_Login_With_Assertion_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

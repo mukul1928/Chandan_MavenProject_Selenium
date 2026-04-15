@@ -44,6 +44,7 @@ public class LaunchQuit {
 		File source = tss.getScreenshotAs(OutputType.FILE);
 		File destination = new File("C:\\Users\\mukul\\eclipse-workspace\\Chandan_MavenProject_Selenium\\Screenshot" + Math.random() + ".png");
 		FileHandler.copy(source, destination);
+		driver.close();
 	}
 
 }

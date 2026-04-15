@@ -11,8 +11,9 @@ import org.testng.annotations.Test;
 
 public class Amazon_Login_UsingAssertion {
 	WebDriver driver;
-	@Test(retryAnalyzer=class_60_IRetryAnalyzer_DataDrivenTesting.RetryLogic.class)
-	public void amazon_login() {
+
+	@Test(retryAnalyzer = class_60_IRetryAnalyzer_DataDrivenTesting.RetryLogic.class)
+	public void amazon_login() throws InterruptedException {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.amazon.in");
@@ -20,6 +21,7 @@ public class Amazon_Login_UsingAssertion {
 		WebElement hover = driver.findElement(By.xpath("(//span[.='Hello, sign in'])"));
 		Actions a = new Actions(driver);
 		a.moveToElement(hover).perform();
+		Thread.sleep(3000);
 		WebElement sign = driver.findElement(By.xpath("(//span[.='Sign in'])"));
 		sign.click();
 		WebElement email = driver.findElement(By.id("ap_email_login"));

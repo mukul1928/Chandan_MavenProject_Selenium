@@ -1,6 +1,5 @@
 package class_59_AssertionInTestNG_SkipAnyTestCase_RetryAnyTestCases;
 
-
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -13,6 +12,7 @@ import org.testng.annotations.Test;
 
 public class DependsOnMethod_SkipAnyTestCases {
 	WebDriver driver;
+
 	@Test
 	public void logintoamazon() {
 		driver = new ChromeDriver();
@@ -35,14 +35,15 @@ public class DependsOnMethod_SkipAnyTestCases {
 		signin.click();
 		Assert.assertFalse(true);
 	}
-	@Test(priority=1,dependsOnMethods="logintoamazon")
+
+	@Test(priority = 1, dependsOnMethods = "logintoamazon")
 	public void logoutfromamazon() {
 		WebElement logout = driver.findElement(By.xpath("(//span[@class='nav-line-2 '])"));
 		Actions a = new Actions(driver);
 		a.moveToElement(logout).perform();
 		WebElement signout = driver.findElement(By.xpath("(//span[.='Sign Out'])"));
 		signout.click();
-		
+
 	}
 
 }
